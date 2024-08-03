@@ -50,3 +50,8 @@ history.txt
 
 backup
 notes.md
+backup/
+.zipignore
+versions.log
+solana_cfg.log
+test-ledger/
