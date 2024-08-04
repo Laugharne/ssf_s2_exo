@@ -33,7 +33,8 @@ export default function DashboardFeature() {
   
   const [payer, setPayer]                       = useState<Signer | undefined>(undefined);
   const [mintPubkey, setMintPubkey]             = useState<PublicKey | undefined>(undefined);
-  const [tokenAccount, setTokenAccount]         = useState<Account | null>(null);
+  const [tokenAccount, setTokenAccount]         = useState<any | null>(null);
+  //const [tokenAccount, setTokenAccount]         = useState<Account | null>(null);
   const [isInit, setIsInit]                     = useState(false);
   const [mintTransaction, setMintTx]            = useState("");
   const [balanceToken, setBalanceToken]         = useState<number>(0);
