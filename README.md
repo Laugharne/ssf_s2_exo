@@ -269,3 +269,10 @@ const delegateTransferSignature = await transfer(
 console.log("Delegate Transfer Signature:", delegateTransferSignature);
 
 ```
+## Resources
+
+- [GitHub - anza-xyz/wallet-adapter: Modular TypeScript wallet adapters and components for Solana applications.](https://github.com/anza-xyz/wallet-adapter)
+- [Interacting with Tokens | Solana Cookbook](https://solanacookbook.com/references/token.html#what-do-i-need-to-get-started-with-spl-tokens)
+- [Sending Transactions | Solana Cookbook](https://solanacookbook.com/references/basic-transactions.html#how-to-send-spl-tokens) (_Click on Wallet Adapter, and the dev icon_) 
+- [How to Mint an NFT on Solana](https://medium.com/@accesstoarpan/how-to-mint-an-nft-on-solana-77a38353fbdf)
+- [creating tokens on solana](https://3illbaby.hashnode.dev/how-to-create-tokens-on-solana-in-2024-a-developers-step-by-step-guide#heading-summary)
